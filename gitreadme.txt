@@ -6,4 +6,6 @@ git commit -m "append"
 git status
 git diff
 git log
+git reset --hard HEAD^
+git reser --hard <commitIP>
 
