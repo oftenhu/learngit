@@ -12,5 +12,4 @@ git reset --hard <commitIP>	/to return the modify with  commitIP.
 git reflog	/to show the log simply.
 git restore <file>	/to discard the changes in working directory.
 git reset HEAD <file>	/to discard the changes in stage directory.
-
-
+git checkout -- <file>	/to discard the chanres in working directory.
