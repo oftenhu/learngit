@@ -13,3 +13,5 @@ git reflog	/to show the log simply.
 git restore <file>	/to discard the changes in working directory.
 git reset HEAD <file>	/to discard the changes in stage directory.
 git checkout -- <file>	/to discard the chanres in working directory.
+ssh-keygen -t rsa -C "often.hu@163.com"   /Creat ssh key.
+Regiest github -> account setting -> ssh keys -> add ssh key -> ...
