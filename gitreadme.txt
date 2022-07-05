@@ -32,5 +32,8 @@ $git reset HEAD <file>	//to discard the changes in stage directory.
 
 $git rm <file>		//to delete a file from repository.
 
-
-
+Creat a github account
+1.sign up with the username(oftenhu)/email(often.hu@163.com)
+2.$ssh-keygen -t rsa -C "often.hu@163.com"
+3.sign up the GitHub，“Account settings”->“SSH Keys”->"Add SSH Key”，any Title，paste the content of id_rsa.pub file in key 
+4.
