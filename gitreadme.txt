@@ -35,5 +35,18 @@ $git rm <file>		//to delete a file from repository.
 Creat a github account
 1.sign up with the username(oftenhu)/email(often.hu@163.com)
 2.$ssh-keygen -t rsa -C "often.hu@163.com"
-3.sign up the GitHub，“Account settings”->“SSH Keys”->"Add SSH Key”，any Title，paste the content of id_rsa.pub file in key 
-4.
+3.sign up the GitHub，“Account settings”->“SSH Keys”->"Add SSH Key”，any Title，paste the content of id_rsa.pub file in key.
+
+Creat a new remote repository in github.
+
+Add a local repository to remote.
+$ git remote add origin git@github.com:oftenhu/learngit.git   //origin is the name of remote repository.
+$ git push -u origin master   //push all of the local repository to remote first(-u). Branch master set up to track remote branch master from origin.
+$ git push origin master      //Then, link the branch master of the local repository to remote when the local changed.
+
+Clone the remote repository to local.
+1.Creat a new repository named as gitskills in github.
+2.$ git clone git@github.com:michaelliao/gitskills.git    //clone remote repository gitskills to local.
+3.$ cd gitskills
+  $ ls
+  README.md
